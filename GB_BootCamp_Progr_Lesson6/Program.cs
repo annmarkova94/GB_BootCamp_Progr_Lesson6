@@ -6,7 +6,7 @@ namespace QuickSort
         static void Main(string[] args)
         {
 
-            //..........Создаем и заполняем начальный массив..........//
+            //..........Создаем и заполняем начальный массив..........////
             Console.WriteLine("Введите кол-во элементов массива");
             int n = Convert.ToInt32(Console.ReadLine());
             int[] array = new int[n];
